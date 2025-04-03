@@ -1,0 +1,77 @@
+.div1{
+    background-color: yellow;
+    visibility: visible;
+}
+.div2{
+    margin-top: -10cm;
+    margin-left: 15cm;
+    visibility: hidden;
+}
+
+.que{
+    color: gray;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+.bt1{
+ width: 150px;
+ height: 60px;
+ border-radius: 5px;
+ margin-left: 2cm;
+ color: gray;
+ border-color: gray;
+ background-color:black;
+ 
+}
+.bt2{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 5cm;
+    color: gray;
+    border-color: gray;
+    background-color: white;
+}
+.img{
+    width: 16cm;
+    height: 16cm;
+    background-image: url(board_1.png);
+
+}
+.bt0{
+    position: absolute;
+    width: 6cm;
+    height: 5cm;
+    margin-top: -10cm;
+    margin-left: 20cm;
+    background-image: url(arrow.png);
+    visibility: visible;
+    
+    
+    
+}
+.div3{
+    position: absolute;
+    background-color: blanchedalmond;
+    visibility: hidden;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -5cm;
+    margin-left:15cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+
+.div4{
+    position: absolute;
+    background-color: blanchedalmond;
+    visibility: hidden;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -5cm;
+    margin-left:15cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}

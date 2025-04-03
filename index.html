@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>DevGlowBytes</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+   <body>
+    <script>
+        function div2(){
+            document.getElementById("div2").style.visibility="visible";
+            document.getElementById("bt0").style.visibility="hidden";
+        }
+        function div3(){
+            document.getElementById("div3").style.visibility="visible";
+            document.getElementById("div1").style.visibility="hidden";
+            document.getElementById("div2").style.visibility="hidden";
+        }
+        function div4(){
+            document.getElementById("div4").style.visibility="visible";
+            document.getElementById("div1").style.visibility="hidden";
+            document.getElementById("div2").style.visibility="hidden";
+        }
+    </script>
+
+    <div class="div1" id="div1">
+        <img src="board_3.png" class="img">
+        <div class="bt0" id="bt0" onmouseover="div2()"></div>
+    </div>
+
+<div class="div2" id="div2">
+    <p class="que" id="que">Are you Happy Today???</p>
+    <button class="bt1" onclick="div3()">NO</button>
+    <button class="bt2" onclick="div4()">YES</button></div>
+
+    <div class="div3" id="div3">
+        <div class="img2"></div>
+        <p >Don't Worry</p>
+        <P >EVERYTHING WILL BE OKAY!🤗</P>
+
+    </div>
+    <div class="div4" id="div4">
+        <p>That's Great ....Keep Smiling 😊</p>
+    </div>
+
+   </body>
+</html>
